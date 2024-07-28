@@ -1,11 +1,21 @@
 {
-  "name": "fullstackapplications",
+  "name": "happybaskests",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pethkar-Tushar-Narendra/FullStackApplications.git"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Pethkar-Tushar-Narendra/FullStackApplications/issues"
+  },
+  "homepage": "https://github.com/Pethkar-Tushar-Narendra/FullStackApplications#readme"
 }
